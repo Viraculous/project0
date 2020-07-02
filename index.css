@@ -49,16 +49,4 @@ button{
     flex-wrap: wrap;
 }
 
-.container > div {
-    font-size: 20px;
-    margin: 50px;
-    padding: 25px;
-    width: 150px;
-    background-color: #292f7d;
-    color: white;
-    text-align: center;
-    font-style:italic ;
-    font-size: 20px;
-}
-p::selection {
-    background-color: lightgray;
+/*# sourceMappingURL=index.css.map */

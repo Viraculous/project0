@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html>
+
     <head>
+
         <title>NESANAU HOMEPAGE</title>
-        <link rel="stylesheet" href="index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+
         <style>
-            #research{
-                color:#232942;
-            }
             .name{
                 font-weight: bold;
                 color: rgb(150, 2, 2);
             }
-        </style>
-    </head>
-    <body>
-          <h1>NIGERIAN ECONOMICS STUDENTS ASSOCIATION</h1>
 
-          <h2>Table Of Content</h2>
+            .top{
+                background-color: #000000;
+                padding:40px;
+            }
+
+            #toc{
+                background-color:lightgray;
+            }
+
+            #middle{
+                background-color: #000000;
+            }
+            
+            #quotes{
+                text-align:center;
+                background-color:whitesmoke;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="top">
+          <h1 id="top">NIGERIAN ECONOMICS STUDENTS ASSOCIATION</h1>
+        </div>
+
+        <div id="toc">
+          <h2><img src="C:/Users/DELL/project0/images/EBU3.jpeg" alt="stats" width="50%" height="244">Table Of Content</h2>
                 <ol>
                     <li><a href="#intro">Introduction</a></li>
                     <li><a href="#about">About Us</a></li>
@@ -30,16 +55,16 @@
                     <li><a href="#signup">Join Us Today!</a></li>
                     <li><a href="#quotes">Inspiration Today</a></li>
                 </ol>
+        </div>
+
+        <div id="middle">
             <h2 id="intro">Introduction</h2>
            <p>The Nigerian Economics Student Association (NESA), is a formally organised body of students who come together for intellectual, social, career and relational welfare of its members. This association is spread across Nigerian universities but here in Nnamdi Azikiwe Univerisity we have about 500-600 students.</p>
-       
         <h2 id="about">About Us</h2> 
         <ol>
             <li>
                 <h3 id="research">Our Research Institute:</h3>
-                    
-                    <p>In pursuit of academic excellence and human capital developement, the <span class="name">Policy Analysis and Research Forum(PAREF)</span> is equiping young Nigerian economics students with the art of research in related career path by creating a  facilitating environment which gives students the platform to make and present their research finding under the auspice of experts in realated area of research discipline</p>
-            
+                    <p>In pursuit of academic excellence and human capital developement, the <a href="https://www.facebook.com/Parefnau/"><span class="name">Policy Analysis and Research Forum(PAREF)</a></span> is equiping young Nigerian economics students with the art of research in related career path by creating a  facilitating environment which gives students the platform to make and present their research finding under the auspice of experts in realated area of research discipline.</p>
             </li>
             <li>
                 <h3 id="fellowship">Our Fellowship:</H3>
@@ -64,20 +89,29 @@
                         <li>Chisom Ike</li>
                         <li>Enibe Blessing</li>
                     <p>
-                    For more details <a href="C:\Users\DELL\Project0\nesa_executives.html"><button  type="button">CLICK HERE!</button></a></span>
+                    For more details <a href="C:\Users\DELL\Project0\nesa_executives.html"><button  type="button" class="btn btn-primary">CLICK HERE!</button></a></span>
                     </p>
-                    </ul>
-                
+                    </ul>   
         </ol>
         <h2 id="signup">Join Us Today!</h3>
-            <p>With our community of students growing all over Nigeria, it is our pleasure to connect with you and let you know more about how the world is changing. Join us today by registering on the link below with your email. You will receive weekly newsletters from us on recent updates thanks</p>
-            <p>Sign-up <a href="C:\Users\DELL\Project0\signup_nesanau.html"><button  type="button">HERE</button></a></p>
+            <p>With our community of students growing all over Nigeria, it is our pleasure to connect with you and let you know more about how the world is changing. Join us today by registering on the link below with your email. You will receive weekly newsletters from us on recent updates thanks.</p>
+            <p>Sign-up <a href="C:\Users\DELL\Project0\signup_nesanau.html"><button  type="button" class="btn btn-primary">HERE</button></a></p>
         <h2 id="quotes">Inspiration Today</h2>
-        <div class="container">
-            <div>“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers.</div>
-            <div>“The Way Get Started Is To Quit Talking And Begin Doing.” – Walt Disney</div>
-            <div>“The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill</div>
-            <div>“If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.” – Steve Jobs</div>
+
+            <div class="container">
+                <div>“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers.</div>
+                <div>“The Way Get Started Is To Quit Talking And Begin Doing.” – Walt Disney</div>
+                <div>“The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill</div>
+                <div>“If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.” – Steve Jobs</div>
+            </div>
+
+            <div class="alert alert-primary" role="alert">
+                <b>Note:</b>This is the end of this page. <a href="#top" class="alert-link">Click Me!</a> to get to the top of the page or checkout our <b>Album</b> to feed your mind. check <a href="C:\Users\DELL\Project0\album\album.html"><button  type="button" class="btn btn-primary">HERE</button>.
+            </div>
+
         </div>
+
     </body>
+
 </html>
+
