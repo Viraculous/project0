@@ -14,11 +14,11 @@ h3{
     font-style: italic;
 }
 p{
-    color:solid black;
     text-align:left;
     font-weight: 500;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white
 }
 table{
     border:2px solid #292f7d;
@@ -26,12 +26,17 @@ table{
     width:1400px;
 }
 th,td{
-    border:2px solid#292f7d;
+    border:2px solid#ffffff;
     padding:5px;
     text-align: center;
 }
 th{
     background-color:red; 
+    color:rgb(61, 102, 0);
+    font-size: larger;
+}
+td{
+    color: honeydew;
 }
 img{
     float: right;
@@ -39,6 +44,7 @@ img{
 }
 ul{
     font-weight: bold;
+    color:white;
 }
 button{
     color: white;
@@ -49,4 +55,17 @@ button{
     flex-wrap: wrap;
 }
 
-/*# sourceMappingURL=index.css.map */
+.container > div {
+    font-size: 20px;
+    margin: 50px;
+    padding: 25px;
+    width: 150px;
+    background-color: #292f7d;
+    color: white;
+    text-align: center;
+    font-style:italic ;
+    font-size: 20px;
+}
+p::selection {
+    background-color: lightgray;
+}
