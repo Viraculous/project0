@@ -1,0 +1,17 @@
+$color:red;
+.grid-item{
+    color:$color;
+}
+%message{
+    font-family: sans-serif;
+}
+.grid-item{
+    @extend %message;
+}
+div{
+    font-size: 20px;
+
+    p {
+        color: $color;
+    }
+}

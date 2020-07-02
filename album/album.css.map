@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,UAAU,CAAA;EACN,KAAK,EAFF,GAAG;CAGT;;AAID,AAHA,UAGU,CAHF;EACJ,WAAW,EAAE,UAAU;CAC1B;;AAID,AAAA,GAAG,CAAA;EACC,SAAS,EAAE,IAAI;CAKlB;;AAND,AAGI,GAHD,CAGC,CAAC,CAAC;EACE,KAAK,EAdN,GAAG;CAeL",
+    "sources": [
+        "album.scss"
+    ],
+    "names": [],
+    "file": "album.css"
+}
