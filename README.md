@@ -6,19 +6,23 @@ NESA(Nigerian Economics Student Association) is an association of ecomomics stud
 
 # index0.html
 
-This file contains the main and basic construct on the page being supported by a separate css stylesheet to customarily design the page. Although, for the sake of illustration and meeting the project goal, I embeded some of the styling functions and attributes into the code lines especially for more particular designs. This page allows users to move from one section to another using the table of contents and the "Click/Here" links allows you to visit other pages like the signup page and nesa excutive page which contains a table of 3 NESA executives and their role for the purpose of illustration. One of the links will redirect you an online facebook page of Policy Analysis and Research Forum(PAREF). This was made possible using the #id and .class funtions to create special attributes and a unique identity for different sections of the page. The "Table of Content" and the "About" section demonstrated the use of ordered and unordered list attributes and also shows their how they are nested. 
+This is the first file that I created on this project. In it contains the main and basic construct on the page being supported by a separate css stylesheet to customarily design the page. Although, for the sake of illustration and meeting the project goal, I embeded some of the styling functions and attributes into the code lines especially for more particular designs. This page allows users to move from one section to another using the table of contents and the "Click/Here" links allows you to visit other pages like the signup page and nesa excutive page which contains a table of 3 NESA executives and their role for the purpose of illustration. One of the links will redirect you an online facebook page of Policy Analysis and Research Forum(PAREF). This was made possible using the #id and .class funtions to create special attributes and a unique identity for different sections of the page. The "Table of Content" and the "About" section demonstrated the use of ordered and unordered list attributes and also shows their how they are nested. 
 
 # index.html
 
 This is an abridged version  of the index.html file. It contains a bootstrap link which allows a different web interface from the index.html. I made use the bootstrap "button" and the alert component. In this file, I also made more use of the css selector for some particular styling of the webpage.
 
-# index.scss
+# album.scss
 
 Here I used sass to demonstrate the variable, nesting and inheritance attribute on top of css. Although compiling them on seems problematic on my command line but github automatically compiles it.
 
-# Album.html
+# album.html
 
-The Album.html demonstrates columns for layout purposes using Bootstrap’s grid model. On it are some amazing pictures inserted in each grid space.
+The album.html demonstrates columns for layout purposes using Bootstrap’s grid model. On it are some amazing pictures inserted in each grid space.
+
+# album.css
+
+Here is where the scss file is compiled
 
 # signup_nesanau.html
 
